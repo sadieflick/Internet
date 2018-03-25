@@ -1,0 +1,233 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: sans-serif;
+}
+#wrapper{
+ width: 800px;
+ background-color: white;
+ margin: 0px auto;
+}
+#header{
+ height: 100px;
+ background-color: white;
+}
+#globe {
+    width: 85px;
+    position: absolute;
+}
+#the_Inter {
+    display: inline-block;
+    margin-left: 85px;
+    font-weight: normal;
+    color: #474747;
+    padding-bottom: -7px;
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+#net {
+    font-weight: normal;
+    display: inline-block;
+    color: #2A69A0;
+    margin-left: -5px;
+    padding-bottom: -7px;
+    padding-top: 20px;
+    font-size: 2.5em;
+}
+#www {
+    display: block;
+    color: white;
+    font-weight: normal;
+    background: linear-gradient(#2A69A0,#85a8c7,#2A69A0);
+    padding: 10px 0px 10px 15px;
+}
+#body_block {
+    padding: 0;
+    margin:20px 10px 10px 10px;
+    overflow: hidden;
+}
+#sidebar{
+ height: 350px;
+ width: 150px;
+ margin: 0px;
+ background-color: white;
+ display: inline-block;
+}
+#further_reading {
+    display: block;
+}
+#further_reading h4 {
+    display: inline-block;
+    font-size: .8em;
+    margin-bottom: 10px;
+}
+
+#red {
+    color: red;
+    display: inline-block;
+}
+#an {
+    display: inline;
+    font-size: .7em;
+    line-height: .5;
+    font-weight: bold;
+}
+.sidep {
+    display: inline;
+    margin-left: -5px;
+    font-size: .7em;
+    line-height: .5;
+    font-weight: bold;
+}
+.blue {
+    color: #3671A6;
+    display: inline;
+    font-size: .7em;
+    line-height: .5;
+    font-weight: bold;
+}
+#watch {
+    display: block;
+    background-color: #2A69A0;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: .75em;
+    border: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#more {
+    display: block;
+    background-color: #EF7C00;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: .75em;
+    border: 0px;
+    margin-bottom: 15px;
+}
+#advertisement {
+    background-image: url("ad_background.png");
+    height: 250px;
+    width: 150px;
+    overflow: hidden;
+}
+#advertisement h3 {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding: 15px 5px 0px 5px;
+}
+#ninja {
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+}
+#learn_more {
+    padding: 3px 15px;
+    color: white;
+    background-color: #48CADF;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    border: 0px;
+    margin-top: 10px;
+}
+#arrows {
+    font-size: .5em;
+    display: inline;
+}
+#main_content{
+    width: 615px;
+    margin: 0px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+}
+#top_bar {
+    height: 38px;
+    width: 615px;
+    border-bottom: 2px solid grey;
+    display: inline-block;
+    padding: 0px 5px 15px 5px;
+}
+#dns {
+    display: inline-block;
+}
+#dns img {
+    width: 15px;
+}
+#top_bar a {
+    text-decoration: none;
+    color: #3671A6;
+    font-size: .75em;
+}
+#phone {
+    width: 40px;
+    margin-left: 400px;
+    vertical-align: top;
+}
+#contact {
+    display: inline-block;
+    vertical-align: top;
+}
+#contact h3 {
+    color: #00C0DF;
+}
+#contact p {
+    color: grey;
+    font-size: .25em;
+}
+.subcontents{
+ width: 615px;
+ margin: 5px;
+ background-color: white;
+ display: block;
+}
+.subcontents h3, #the_big_three h3 {
+    color: #2768A0;
+    font-size: 1em;
+}
+.subcontents p, #the_big_three p {
+    font-size: 10pt;
+    display: inline;
+}
+.strong {
+    font-weight: bold;
+    display: inline;
+}
+.subcontents span {
+    color: #41B2C3;
+}
+.subcontents img {
+    width: 225px;
+    display: block;
+    margin: 0 auto;
+}
+ul, ol {
+    margin-left: 38px;
+    margin-top: 5px;
+    font-size: 10pt;
+}
+#the_big_three {
+    border-top: 5px solid #0085E0;
+    border-right: 5px solid #0085E0;
+    border-left: 5px solid #0085E0;
+    width: 585px;
+    height: 100px;
+    margin-top: 15px;
+    padding: 15px;
+}
+#big_3_blurb {
+    display: inline-block;
+    width: 400px;
+}
+#the_big_three img {
+    width: 100px;
+    display: inline-block;
+}
+#the_big_three a {
+    text-decoration: none;
+    color: #119EB4;
+}
